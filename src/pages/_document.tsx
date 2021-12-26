@@ -37,7 +37,17 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en-US">
-        <Head />
+        <Head>
+          <meta charSet="utf-8" />
+          <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+          <link rel="apple-touch-icon" href="/assets/images/favicon.ico" />
+
+          <meta name="theme-color" content="#F2F3F5" />
+          <meta
+            name="description"
+            content="A boilerplate to start working with TypeScript, React, Nextjs, Styled-Components, and GraphQL"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
