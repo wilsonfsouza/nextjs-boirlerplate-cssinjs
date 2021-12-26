@@ -7,11 +7,12 @@
     "start": "next start",
     "lint": "next lint",
     "eslint": "eslint src --max-warnings=0",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "yarn test --watch"
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn eslint --fix"
+      "yarn eslint --fix", "yarn test --bail"
     ]
   },
   "dependencies": {
