@@ -17,7 +17,3 @@ export const Basic: ComponentStory<typeof Main> = (args) => <Main {...args} />;
 Basic.args = {
   heading: 'Basic Block'
 };
-
-// Basic.args = {
-//   heading: 'Advanced React'
-// };
