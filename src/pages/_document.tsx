@@ -41,6 +41,7 @@ export default class MyDocument extends Document {
           <meta charSet="utf-8" />
           <link rel="shortcut icon" href="/assets/images/favicon.ico" />
           <link rel="apple-touch-icon" href="/assets/images/favicon.ico" />
+          <link rel="manifest" href="/manifest.json" />
 
           <meta name="theme-color" content="#F2F3F5" />
           <meta
